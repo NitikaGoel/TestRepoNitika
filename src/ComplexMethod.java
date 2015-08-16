@@ -25,6 +25,9 @@ public class ComplexMethod {
 		if (i > 7) {
             return 7;
         }
+		if (i > 8) {
+            return 8;
+        }
         return null;
     }
 
