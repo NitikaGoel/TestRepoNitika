@@ -8,7 +8,7 @@ public class ComplexMethod {
             return "Two";
         }
         if (i == 3) {
-            return "Three";
+            return "Four";
         }
         if (i == 4) {
             return "Four";
@@ -21,6 +21,9 @@ public class ComplexMethod {
         }
         if (i > 6) {
             throw new NotImplementedException();
+        }
+		if (i > 7) {
+            return 7;
         }
         return null;
     }
