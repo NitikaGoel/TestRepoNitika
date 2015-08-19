@@ -31,6 +31,9 @@ public class ComplexMethod {
 		if (i > 9) {
             return 9;
         }
+		if (i > 10) {
+            return 10;
+        }
         return null;
     }
 
