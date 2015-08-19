@@ -8,7 +8,7 @@ public class ComplexMethod {
             return "Two";
         }
         if (i == 3) {
-            return "Four";
+            return "three---";
         }
         if (i == 4) {
             return "Four";
