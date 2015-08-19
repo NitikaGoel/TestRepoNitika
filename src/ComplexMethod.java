@@ -31,11 +31,14 @@ public class ComplexMethod {
 		if (i > 9) {
             return 9;
         }
-		if (i > 11) {
+		if (i > 12) {
             return 11;
         }
-		if (i > 10 {
+		if (i > 10) {
             return 10;
+        }
+		if (i > 11) {
+            return 11;
         }
 		
         return null;
