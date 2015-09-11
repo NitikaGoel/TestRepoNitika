@@ -24,3 +24,19 @@ public interface MSContactUsOrderDetailsCmd extends ControllerCommand {
             throws ECException;
 
 }
+ /**
+     * setRequestProperties method.
+     * This method helps to get the option selected by user
+     * for option selected for contact
+     * @param reqProperties TypedProperty
+     * @throws ECException ECException
+     */
+    @Override
+    public void setRequestProperties(
+            final TypedProperty reqProperties)
+            throws ECException {
+        super.setRequestProperties(reqProperties);
+		
+        optionSelected = this.getRequestProperties().getInteger("byEmail", null);
+    }
+
