@@ -25,6 +25,9 @@ public class ComplexMethod {
         if (i > 8) {
             throw new NotImplementedException();
         }
+        if (i > 7) {
+            throw new NotImplementedException();
+        }
         return null;
     }
 
